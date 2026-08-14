@@ -1,8 +1,10 @@
 # dsh-collection（DeepSeek Harness 插件与 Skill 合集）
 
 一个集中管理 **DeepSeek Harness** 插件和 Skill 的仓库：每个项目保持独立仓库（可单独 `dsh plugin add` 安装），这里通过 **git submodule** 统一收纳并分类展示。
+<br>
 
 > ⭐ **如果这些插件帮到了你，欢迎给项目点个 Star！** 你的支持是我持续维护的动力 🙏
+> 
 > ⭐ **If these plugins helped you, please Star the repos!** Your support keeps me improving them 🙏
 
 ## 插件（Plugins）
