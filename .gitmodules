@@ -1,0 +1,6 @@
+[submodule "plugins/dsh-plugin-organizer"]
+	path = plugins/dsh-plugin-organizer
+	url = https://github.com/Inspireason/dsh-plugin-organizer.git
+[submodule "plugins/dsh-skill-organizer"]
+	path = plugins/dsh-skill-organizer
+	url = https://github.com/Inspireason/dsh-skill-organizer.git
