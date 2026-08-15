@@ -13,8 +13,8 @@
 
 | 插件 | 说明 | 安装 |
 |---|---|---|
-| [**dsh-plugin-organizer**](./plugins/dsh-plugin-organizer) | 插件列表按 **官方 / 第三方** 分组收纳，可展开/折叠 | `dsh plugin --profile web add Inspireason/dsh-plugin-organizer` |
-| [**dsh-skill-organizer**](./plugins/dsh-skill-organizer) | Skill 列表按 **自动推荐分类 + 手动调整** 分组收纳 | `dsh plugin --profile web add Inspireason/dsh-skill-organizer` |
+| [**dsh-plugin-organizer**](https://github.com/Inspireason/dsh-plugin-organizer) | 插件列表按 **官方 / 第三方** 分组收纳，可展开/折叠 | `dsh plugin --profile web add Inspireason/dsh-plugin-organizer` |
+| [**dsh-skill-organizer**](https://github.com/Inspireason/dsh-skill-organizer) | Skill 列表按 **自动推荐分类 + 手动调整** 分组收纳 | `dsh plugin --profile web add Inspireason/dsh-skill-organizer` |
 
 ### 安装全部插件
 
