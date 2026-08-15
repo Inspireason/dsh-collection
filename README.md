@@ -34,8 +34,13 @@ dsh plugin --profile web add ./dsh-collection/plugins/dsh-skill-organizer
 
 ## Skill（Skills）
 
-> 计划中：后续会将 `~/.dsh/skills/` 中的轻量 Skill 收录到本仓库的 `skills/` 目录，
-> 通过 junction / customSkillDirs 让 DSH 直接扫描。当前暂未收录。
+Skill 是 `~/.dsh/skills/` 中的轻量 Markdown 文档（SKILL.md），以 submodule 收录在 `skills/` 目录，可复制或链接到 DSH 的 skills 目录直接加载。
+
+| Skill | 说明 | 加载方式 |
+|---|---|---|
+| [**dsh-team-driven-development**](https://github.com/Inspireason/dsh-team-driven-development) | 团队驱动开发：superpowers 方法论 × dsh-agent-teams 持久团队框架 | 复制 `skills/dsh-team-driven-development/SKILL.md` 到 `~/.dsh/skills/team-driven-development/` |
+
+> 方法论致谢 [Jesse Vincent (obra)](https://github.com/obra) 的 [superpowers](https://github.com/obra/superpowers)（MIT）。
 
 ## 仓库结构
 
@@ -45,7 +50,8 @@ dsh-collection/
 ├── plugins/                       # 插件 submodules
 │   ├── dsh-plugin-organizer/       # → github.com/Inspireason/dsh-plugin-organizer
 │   └── dsh-skill-organizer/        # → github.com/Inspireason/dsh-skill-organizer
-└── skills/                        # （预留）Skill 目录
+└── skills/                        # Skill submodules
+    └── dsh-team-driven-development/  # → github.com/Inspireason/dsh-team-driven-development
 ```
 
 ## 更新子模块

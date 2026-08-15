@@ -4,3 +4,6 @@
 [submodule "plugins/dsh-skill-organizer"]
 	path = plugins/dsh-skill-organizer
 	url = https://github.com/Inspireason/dsh-skill-organizer.git
+[submodule "skills/dsh-team-driven-development"]
+	path = skills/dsh-team-driven-development
+	url = https://github.com/Inspireason/dsh-team-driven-development.git
